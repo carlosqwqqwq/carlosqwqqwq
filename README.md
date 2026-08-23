@@ -1,11 +1,14 @@
 <div align="center">
-
-# Carlos
-
-`RISC-V` · `Systems Software` · `Open Source`
-
-Building, debugging and upstreaming low-level software.
-
+  <h1>Carlos</h1>
+  <p><code>RISC-V</code> | <code>Systems Software</code> | <code>Open Source</code></p>
+  <p>Building, debugging and upstreaming low-level software.</p>
+  <p>
+    <a href="https://github.com/carlosqwqqwq?tab=repositories">Repositories</a>
+    |
+    <a href="https://github.com/carlosqwqqwq?tab=overview">Activity</a>
+    |
+    <a href="https://github.com/carlosqwqqwq/carlosqwqqwq">Profile README</a>
+  </p>
 </div>
 
 ## Current focus
@@ -14,44 +17,46 @@ Building, debugging and upstreaming low-level software.
 - C/C++/Rust, performance and low-level debugging
 - Reproducible bugs, code review and upstream fixes
 
-## Selected work
+## Selected public work
 
-- [sbllm-riscv](https://github.com/carlosqwqqwq/sbllm-riscv) — Personal RISC-V project
-- [HexRaysSA/rax](https://github.com/HexRaysSA/rax) — Recent upstream systems work
-- [libriscv/libriscv](https://github.com/libriscv/libriscv) — Fast RISC-V sandbox
-- [LekKit/RVVM](https://github.com/LekKit/RVVM) — RISC-V virtual machine
-- [unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn) — Multi-architecture CPU emulator
+- [HexRaysSA/rax](https://github.com/HexRaysSA/rax) - CPU emulator that checks its own work
+- [libriscv/libriscv](https://github.com/libriscv/libriscv) - Fast RISC-V sandbox
+- [LekKit/RVVM](https://github.com/LekKit/RVVM) - RISC-V virtual machine
+- [unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn) - Multi-architecture CPU emulator framework
+- [antmicro/tlib](https://github.com/antmicro/tlib) - C++ systems tooling
 
 ## Toolset
 
 `C` `C++` `Rust` `Python` `Linux` `Git` `RISC-V`
 
-## GitHub activity
+## Activity
 
-<div align="center">
-  <img src="./images/userstats.svg" alt="GitHub activity statistics" width="760"/>
-</div>
+<table>
+  <tr>
+    <td width="38%">
+      <img src="./images/userstats.svg" alt="GitHub activity statistics" width="100%"/>
+    </td>
+    <td width="62%">
+      <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution calendar" width="100%"/>
+    </td>
+  </tr>
+</table>
 
-## Contribution map
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution calendar" width="100%"/>
-</div>
+## Contribution animation
 
 <div align="center">
   <img src="./images/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution snake" width="100%"/>
 </div>
 
-## Collaboration
+## Open source
 
-Issues, pull requests and discussions in the relevant repository are the best
-way to collaborate. Minimal reproducers and expected behavior make debugging
-faster.
+I work in public through issues, pull requests, code review and upstream fixes.
+Minimal reproducers and expected behavior make debugging faster.
 
 <p align="center">
-  <a href="https://github.com/lebedevnet/ReadmeForge">README layout: ReadmeForge</a>
-  ·
-  <a href="https://github.com/cicirello/user-statistician">Stats: user-statistician</a>
-  ·
-  <a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D: github-profile-3d-contrib</a>
+  <a href="https://github.com/cicirello/user-statistician">Statistics</a>
+  |
+  <a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D contributions</a>
+  |
+  <a href="https://github.com/Platane/snk">Contribution animation</a>
 </p>
