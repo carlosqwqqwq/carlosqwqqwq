@@ -1,9 +1,10 @@
 <div align="center">
   <h1>Carlos</h1>
-  <p><strong>RISC-V and systems software</strong></p>
-  <p>I build low-level software, reproduce hard failures, and upstream the smallest useful fix.</p>
+  <p><strong>RISC-V | Emulation | Systems software</strong></p>
+  <p>I work close to the machine: making software observable, reproducible and easier to upstream.</p>
+  <p>Current interests: CPU emulation, virtual machines, performance and the tooling around RISC-V.</p>
   <p>
-    <a href="https://github.com/carlosqwqqwq?tab=repositories">Repositories</a>
+    <a href="https://github.com/carlosqwqqwq?tab=repositories">Public work</a>
     |
     <a href="https://github.com/carlosqwqqwq?tab=overview">Activity</a>
     |
@@ -22,11 +23,11 @@
       RISC-V emulation, virtual machines and systems tooling.
     </td>
     <td width="33%" valign="top">
-      <strong>Understand</strong><br>
-      CPU behavior, performance and low-level debugging.
+      <strong>Investigate</strong><br>
+      CPU behavior, performance and low-level failures.
     </td>
     <td width="33%" valign="top">
-      <strong>Share</strong><br>
+      <strong>Collaborate</strong><br>
       Minimal reproducers, code review and upstream fixes.
     </td>
   </tr>
@@ -34,53 +35,46 @@
 
 ## Selected open source
 
-These are the projects and ecosystems closest to the work I am exploring:
+The list below maps the open-source systems closest to my current work:
 
 <table>
   <tr>
     <th align="left">Project</th>
-    <th align="left">Why it matters here</th>
+    <th align="left">Focus</th>
   </tr>
   <tr>
     <td><a href="https://github.com/HexRaysSA/rax">HexRaysSA/rax</a></td>
-    <td>CPU emulation with self-checking behavior.</td>
+    <td>Self-checking CPU emulation.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/libriscv/libriscv">libriscv/libriscv</a></td>
-    <td>A fast RISC-V sandbox for embedding and experimentation.</td>
+    <td>An embeddable RISC-V sandbox.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/LekKit/RVVM">LekKit/RVVM</a></td>
-    <td>A compact RISC-V virtual machine implementation.</td>
+    <td>A compact RISC-V virtual machine.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/unicorn-engine/unicorn">unicorn-engine/unicorn</a></td>
-    <td>A practical reference point for multi-architecture emulation.</td>
+    <td>A multi-architecture emulation framework.</td>
   </tr>
   <tr>
     <td><a href="https://github.com/antmicro/tlib">antmicro/tlib</a></td>
-    <td>C++ systems tooling for low-level development.</td>
+    <td>C++ systems tooling for low-level work.</td>
   </tr>
 </table>
 
-## How I work
+## Contribution loop
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>1. Reproduce</strong><br>
-      Reduce a failure to a small, runnable case.
-    </td>
-    <td width="33%" valign="top">
-      <strong>2. Trace</strong><br>
-      Follow the boundary between ISA, runtime and tooling.
-    </td>
-    <td width="33%" valign="top">
-      <strong>3. Upstream</strong><br>
-      Share the smallest change that helps the wider project.
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <code>reproduce</code>
+  -&gt;
+  <code>trace</code>
+  -&gt;
+  <code>upstream</code>
+</p>
+
+<p align="center">Small cases. Clear behavior. Useful fixes.</p>
 
 ## Toolset
 
@@ -96,20 +90,26 @@ These are the projects and ecosystems closest to the work I am exploring:
 
 ## Activity
 
-The charts below are generated in this repository by GitHub Actions and reflect public GitHub activity.
+These static cards are generated inside this repository from public GitHub data.
 
 <table>
   <tr>
-    <td width="42%" valign="top">
-      <img src="./images/userstats.svg" alt="GitHub activity statistics" width="100%"/>
+    <td width="50%" valign="top">
+      <img src="./images/github-stats.svg" alt="GitHub statistics" width="100%"/>
     </td>
-    <td width="58%" valign="top">
-      <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution calendar" width="100%"/>
+    <td width="50%" valign="top">
+      <img src="./images/github-top-langs.svg" alt="Top languages in public repositories" width="100%"/>
     </td>
   </tr>
 </table>
 
+Top languages describes the language distribution of public repository code; it is not a skill ranking.
+
 ## Contribution map
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution calendar" width="100%"/>
+</div>
 
 <div align="center">
   <picture>
@@ -130,7 +130,7 @@ If you are working on RISC-V, emulation or systems software, start with a minima
 </p>
 
 <p align="center">
-  <a href="https://github.com/cicirello/user-statistician">Statistics</a>
+  <a href="https://github.com/stats-organization/github-readme-stats-action">GitHub stats</a>
   |
   <a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D contributions</a>
   |

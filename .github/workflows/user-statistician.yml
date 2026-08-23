@@ -1,4 +1,4 @@
-name: Update profile statistics
+name: Update profile cards
 
 on:
   schedule:
@@ -17,14 +17,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Generate GitHub statistics
-        uses: cicirello/user-statistician@v1
+      - name: Generate GitHub statistics card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          image-file: images/userstats.svg
-          colors: dark-dimmed
-          custom-title: GitHub Activity
-          hide-keys: private
-          commit-and-push: true
-          commit-message: "chore: update profile statistics"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&include_all_commits=true&count_private=false&theme=github_dark&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"
+          path: images/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&theme=github_dark&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"
+          path: images/github-top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/github-stats.svg images/github-top-langs.svg
+          git diff --cached --quiet || (git commit -m "chore: update profile cards" && git push)
