@@ -1,0 +1,26 @@
+name: Update profile statistics
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Generate GitHub statistics
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: images/userstats.svg
+          colors: dark-dimmed
+          custom-title: GitHub Activity
+          hide-keys: private
+          commit-and-push: true
+          commit-message: "chore: update profile statistics"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
