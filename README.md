@@ -28,21 +28,3 @@ Top languages describes the language distribution of public repository code; it 
     <img src="./images/github-contribution-grid-snake.svg" alt="GitHub contribution activity" width="100%"/>
   </picture>
 </div>
-
-## Open source
-
-If you are working on RISC-V, emulation or systems software, start with a minimal reproducer, expected behavior and environment details. That gives an issue or pull request a clear path to a useful fix.
-
-<p align="center">
-  <a href="https://github.com/carlosqwqqwq?tab=repositories">Browse public work</a>
-  |
-  <a href="https://github.com/carlosqwqqwq?tab=activity">See recent activity</a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/stats-organization/github-readme-stats-action">GitHub stats</a>
-  |
-  <a href="https://github.com/yoshi389111/github-profile-3d-contrib">3D contributions</a>
-  |
-  <a href="https://github.com/Platane/snk">Contribution map</a>
-</p>
